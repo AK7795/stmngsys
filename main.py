@@ -14,8 +14,13 @@ def sea():
 
 
 @ap.route("/delete")
-def delet():
+def delete():
     return render_template("deletee.html")
+
+
+@ap.route("/register")
+def regis():
+    return render_template("register.html")
 
 
 if __name__ == "__main__":
